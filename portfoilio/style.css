@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color: #000;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    text-decoration: none;
+    position: absolute;
+}
+.firsthalf{
+    position: relative;
+    min-height: 100vh;
+    width: 50%;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    padding-bottom: 60px;
+}
+.content{
+    padding-left: 50px;
+}
+.content h3{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+.content h2{
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+.content h2 span{
+    color: yellow;
+    /* font-style: oblique; */
+}
+.content h4{
+    background: yellow;
+    font-size: 15px;
+    width: fit-content;
+    border-radius: .2rem;
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.content p{
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+button{
+    background: yellow;
+    font-weight: bolder;
+    border: none;
+    width: 150px;
+    margin: 10px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    border-radius: 30px;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+button a:hover{
+    color: #fff;
+    transition: all 300ms ease;
+}
+
+
+/* ================================END OF FIRST HALF==================================== */
+
+.second{
+    width: 50%;
+    min-height: 100vh;
+    background-image: url(images/yme.JPG);
+    background-position: center;
+    background-size: cover;
+}
+.containe{
+    margin: 30% 5% 20% auto;
+    padding-right: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.conten{
+    margin-top: 5px;
+    margin-left: auto;
+    transition: all 1s;
+    border-radius: 5rem;
+    background: yellow;
+    width: 6%;
+    display: flex;
+    gap: .5rem;
+    padding: 3px;
+    overflow: hidden;
+}
+.conten .fa-solid{
+    width: 30px;
+    height: 18px;
+    margin: 3px;
+    font-size: 20px;
+    padding: 0;
+    margin-left: 6px;
+    /* text-align: center; */
+    border-radius: 50%;
+}
+.conten .fa-solid.active{
+    color: #fff;
+}
+.conten .fa-solid:nth-child(1){
+    margin-top: 8px;
+    margin-bottom: 7px;
+    margin-left: 6px;
+}
+.conten a {
+    text-decoration: none;
+    display: inline-block;
+    align-content: center;
+    justify-content: center;
+    margin-left: 4px;
+    padding: 6% 0 5% 0;
+    outline: none;
+    color: #000;
+    text-transform: capitalize;
+}
+.conten a.active{
+    color: #fff;
+}
+.conten:hover{
+    width: 152px;
+    border-radius: 1rem;
+}
+
+/* .sideMenu{
+    background: yellow;
+    width: 30px;
+    height: 180px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    margin-right: 5%;
+    overflow: hidden;
+    word-wrap: nowrap;
+}
+.sideMenu ul{
+    text-decoration: none;
+    text-align: center;
+}
+.sideMenu ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.sideMenu ul li a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.sideMenu ul li a.active{
+    color: #fff;
+}
+.sideMenu ul li a:last-child{
+    padding-bottom: 2px;
+}
+.sideMenu ul li a:hover{
+    width: 40px;
+    background: yellow;
+    color: #fff;
+    transition: all 300ms ease;
+}
+.sideMenu:hover{
+    width: 90px;
+} */
+
+/* =====================================END OF INDEX PAGE============================================ */
+
+/* -------------------------------------START OF ABOUT PAGE-------------------------------------------*/
+.body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.88rem;
+    user-select: none;
+    color: #000;
+}
+.box{
+    display: grid;
+    width: 100%;
+    gap: 0.2rem;
+    grid-template-columns: 14rem auto 23rem;
+}
+aside{
+    height: 100vh;
+}
+aside .top img{
+    height: 30vh;
+    width: 102%;
+    margin: -2px -5px -5.5px -2px;
+}
+aside .left_side{
+    display: flex;
+    background: yellow;
+    flex-direction: column;
+    /* height: 70.5vh; */
+    height: calc((100vh - 30vh) + .5vh);
+    width: 100%;
+    position: relative;
+    text-transform: uppercase;
+}
+aside .left_side a{
+    display: flex;
+    color: #000;
+    top: 2.8rem;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+    height: 3.5rem;
+    transition: all 300ms ease;
+}
+
+aside .left_side a.active{
+    color: #fff;
+}
+aside .left_side a:hover{
+    color: #fff;
+}
+
+
+
+main{
+    width: 155%;
+    height: 20vh;
+    padding: 5rem;
+    padding-top: 3rem;
+}
+.heading{
+    border-style: dashed;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 33px;
+}
+.bio{
+    margin-top: 2rem;
+}
+.bio h3{
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.bio h3 span{
+    font-weight: bolder;
+}
+.bio p{
+    padding-bottom: 15px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+    height: auto;
+}
+.bottom .oneside .card{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom .oneside .card .years, .projects{
+    border-right: dashed;
+    border-color: #fff;
+    border-width: 2px;
+}
+.bottom .oneside .card .years, .projects, .pending{
+    height: 100px;
+}
+.bottom .oneside .card h1{
+    color: yellow;    
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.bottom .oneside .card h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+}
+.update .message{
+    display: flex;
+    gap: 1rem;
+    padding-top: 10px;
+}
+.update .message span img{
+    width: 100%;
+    height: 100%;
+    padding-top: 1.6rem;
+}
+.words h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* ==========================END OF ABOUT ME PAGE=========================== */
+
+/* --------------------------START OF CONTACT ME PAGE----------------------------- */
+
+.contacts{
+    display: flex;
+    padding-top: 2rem;
+    gap: 8rem;
+}
+.end h2{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 30PX;
+    margin-top: -12%;
+}
+.contacts .email, .phone{
+    align-items: center;
+    justify-content: center;
+}
+.contacts .email, .phone, .word, .fa-solid{
+    width: 40%;
+    /* height: 40%; */
+    padding: 2px;
+}
+.fa-solid{
+    font-size: 60px;
+    color: #000;
+}
+.contacts .email, .phone, .word a{
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: -20px;
+    padding-bottom: 1rem;
+}
+.contacts .email, .phone, .word a:hover{
+    transition: all 300ms ease;
+    color: rgb(255, 166, 0);
+}
+
+/* =====================================END OF CONTACT ME PAGE============================================ */
+/* -------------------------------------START OF RESUME PAGE---------------------------------------------- */
+
+.resume{
+    padding-left: 1rem;
+    /* padding-bottom: 1.5rem; */
+}
+.resume .education{
+    gap: 2rem;
+}
+.resume .education .sub{
+    padding-top: 1.8rem;
+}
+.resume .education .sub h2{
+    text-align: left;
+    width: 100%;
+    padding-bottom: 1.3rem;
+    text-decoration: underline yellow;
+}
+.resume .education .achivements{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.resume .education .achivements .levels h3{
+    text-transform: capitalize;
+    padding-bottom: 0.8rem;
+}
+
+/* ==================================END OF RESUME PAGE==================================== */
+
+/* ----------------------------------START OF PORTFOLIO PAGe------------------------------- */
+
+.middlelinks{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 1.8rem;
+    width: 69%;
+    position: absolute;
+    text-transform: uppercase;
+    /* background: red; */
+}
+.middlelinks a{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+.middlelinks a:hover{
+    text-transform: capitalize;
+    transition: all 300ms ease;
+    text-decoration: solid underline yellow;
+}
+/* main .middlelinks a:active{
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: solid underline yellow;
+} */
